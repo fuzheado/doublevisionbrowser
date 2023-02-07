@@ -1,2 +1,15 @@
 # doublevisionbrowser
-Jupyter notebook that browses Met Museum object and corresponding Wikidata items
+Jupyter notebook that browses Met Museum object and corresponding Wikidata items in parallel.
+
+This notebook takes a list of Met Museum object IDs, and makes a clickable list from them.
+When an item is clicked, the Met Museum API is consulted and basic information is returned,
+including an image if available as open access/public domain/CC0.
+
+At the same time, Wikidata is consulted to see if an item exists with that same Met object ID,
+using property P3634. If it is found, that item is displayed, as well as if there is an
+image from Wikimedia Commons.
+
+In this way, we can inspect sets of Met objects and compare what we have in Wikidata/Commons.
+
+If the image is missing in Wikidata/Commons, there is a link to run GLAMingest, an earlier
+tool created to create missing Wikidata or upload Commons files
