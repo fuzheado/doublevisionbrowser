@@ -15,7 +15,8 @@ If the image is missing in Wikidata/Commons, there is a link to run GLAMingest, 
 tool created to create missing Wikidata or upload Commons files
 
 ## Running the interface
-* You can run the with the MyBinder link: https://mybinder.org/v2/gh/fuzheado/doublevisionbrowser/HEAD?urlpath=voila%2Frender%2FDoublevision.ipynb
+* You can run the browser with the MyBinder link: https://mybinder.org/v2/gh/fuzheado/doublevisionbrowser/HEAD?urlpath=voila%2Frender%2FDoublevision.ipynb
+* This may take a while to run since it is generating a whole virtual environment for you
 
 ## Screenshot
 ![alt text](Pasted_Image_2_7_23__9_26_AM.png?raw=true)
