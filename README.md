@@ -1,7 +1,10 @@
-# doublevisionbrowser
-Jupyter notebook that browses Met Museum object and corresponding Wikidata items in parallel.
+# doublevision browser
+A Jupyter notebook that browses Met Museum object and corresponding Wikidata items in parallel.
 
 This notebook takes a list of Met Museum object IDs, and makes a clickable list from them.
+
+Paste in a list of Met object IDs into the first box, which can be one per line or comma separated. Pressing the "Populate list" button will fill in the second list.
+
 When an item is clicked, the Met Museum API is consulted and basic information is returned,
 including an image if available as open access/public domain/CC0.
 
