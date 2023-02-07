@@ -13,3 +13,6 @@ In this way, we can inspect sets of Met objects and compare what we have in Wiki
 
 If the image is missing in Wikidata/Commons, there is a link to run GLAMingest, an earlier
 tool created to create missing Wikidata or upload Commons files
+
+Screenshot:
+![alt text](Pasted_Image_2_7_23__9_26_AM.png?raw=true)
